@@ -1,6 +1,8 @@
 # poly
 A Go module for encoding polymorphic values. ie marshalling interfaces to and from concrete types in JSON and YAML.
 
+> go get github.com/clickermonkey/poly
+
 You register your concrete types with a discriminator (string) that is globally unique or unique to a specific interface.
 
 #### The encoded JSON looks like this:
