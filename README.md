@@ -8,7 +8,7 @@ You register your concrete types with a discriminator (string) that is globally 
 #### The encoded JSON looks like this:
 ```js
 // A specified value
-["discrminator", encodedValue]
+["discriminator", encodedValue]
 // No specified value
 []
 ```
